@@ -1,0 +1,59 @@
+V "GNAT Lib v9"
+M P W=b
+P ZX
+
+RN
+RV NO_IO
+RV SPARK_05
+
+U ex2%b			ex2.adb			c23e53cf NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.adb			i-c.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+
+D ada.ads		20190622195205 76789da1 ada%s
+D a-except.ads		20190622195205 291912d5 ada.exceptions%s
+D a-ioexce.ads		20190622195205 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20190622195205 119b8fb3 ada.streams%s
+D a-tags.ads		20190622195205 491b781d ada.tags%s
+D a-textio.ads		20190622195205 881db35a ada.text_io%s
+D a-unccon.ads		20190622195205 0e9b276f ada.unchecked_conversion%s
+D ex2.adb		20190904152959 1e02f10e ex2%b
+D interfac.ads		20190622195205 5ab55268 interfaces%s
+D i-c.ads		20190622195205 5421119b interfaces.c%s
+D i-cstrea.ads		20190622195205 e53d8b8e interfaces.c_streams%s
+D system.ads		20190622195205 4635ec04 system%s
+D s-crtl.ads		20190622195205 0ebbdb71 system.crtl%s
+D s-exctab.ads		20190622195205 54135002 system.exception_table%s
+D s-ficobl.ads		20190622195205 078245e4 system.file_control_block%s
+D s-imgint.ads		20190622195205 02dbe0c2 system.img_int%s
+D s-parame.ads		20190622195205 48ec542b system.parameters%s
+D s-secsta.ads		20190622195205 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20190622195205 a7318a92 system.soft_links%s
+D s-stache.ads		20190622195205 a37c21ec system.stack_checking%s
+D s-stalib.ads		20190622195205 09bd3940 system.standard_library%s
+D s-stoele.ads		20190622195205 2dc34a04 system.storage_elements%s
+D s-traent.ads		20190622195205 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20190622195205 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20190622195205 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 8|1r6 14r3 16r3
+X 6 a-textio.ads
+49K13*Text_IO 471e16 8|1w10 14r7 16r7
+242U14*Put 8|16s15
+263U14*Put_Line 8|14s15
+X 8 ex2.adb
+4U11*ex2 4b11 17l5 17t8
+5K11 C=5:32 6r27 10r7
+6V12*GenereInt_C{integer} 6>24 8b<c,genereInt>27 15s8
+6i24 A{10|35I9}
+10i3 A{10|35I9} 15r20
+11i3 R{integer} 15m3 16r33
+X 9 interfac.ads
+38K9*Interfaces 8|2r6 5r21 9|184e15
+X 10 i-c.ads
+18K20*C 8|2w17 5r32 10|230e17
+35I9*int<integer> 8|6r29 10r9
+
